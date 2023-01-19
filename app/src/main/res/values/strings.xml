@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FWD Shoe Store</string>
+    <!-- Login Fragment -->
+    <string name="login">Login</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="register">Register</string>
 </resources>
