@@ -5,4 +5,12 @@
     <string name="password">password</string>
     <string name="email">email</string>
     <string name="register">Register</string>
+    <!-- ViewPager Fragment -->
+    <string name="next">next</string>
+    <string name="previous">previous</string>
+    <string name="finish">Finish</string>
+    <!-- OnBoarding1 Fragment -->
+    <string name="welcome_to_the_shoe_shop_app">Welcome to The Shoe Shop App</string>
+    <!-- OnBoarding2 Fragment -->
+    <string name="instructions">You can buy the latest shoes and sell your shoes from our app</string>
 </resources>
