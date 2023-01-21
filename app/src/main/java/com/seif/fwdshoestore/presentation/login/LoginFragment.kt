@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.seif.fwdshoestore.R
 import com.seif.fwdshoestore.databinding.FragmentLoginBinding
 import dagger.hilt.android.AndroidEntryPoint
 import timber.log.Timber
@@ -29,10 +30,12 @@ class LoginFragment : Fragment() {
 
         binding.btnLogin.setOnClickListener {
             getUserInput()
+            findNavController().navigate(R.id.action_loginFragment_to_viewPagerFragment)
             Timber.d("onViewCreated: $email - $password")
         }
         binding.btnRegister.setOnClickListener {
             getUserInput()
+            findNavController().navigate(R.id.action_loginFragment_to_viewPagerFragment)
             Timber.d("onViewCreated: $email - $password")
         }
     }
