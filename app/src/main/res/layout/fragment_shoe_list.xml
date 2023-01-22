@@ -11,14 +11,15 @@
         android:id="@+id/rv_shoe_list"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        tools:listitem="@layout/item_shoe"
-        app:spanCount="2"
+        android:layout_marginTop="8dp"
         android:paddingVertical="@dimen/_8sdp"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        app:spanCount="2"
+        tools:listitem="@layout/item_shoe" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_add_shoe"
@@ -35,4 +36,32 @@
         tools:ignore="ImageContrastCheck">
 
     </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/all_products"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_no_products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_products_yet"
+        android:textStyle="bold"
+        android:textSize="@dimen/_18ssp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

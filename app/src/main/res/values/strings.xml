@@ -20,6 +20,9 @@
     <!-- ShoeList Fragment-->
     <string name="add_shoe_fab">add shoe fab</string>
     <string name="shoe_image_description">shoe image</string>
+    <string name="all_products">All Products</string>
+    <string name="no_products_yet">No Products Yet !</string>
+
 
     <!-- Shoe Adapter -->
     <string name="egypt_currency">%1$s EGP</string>

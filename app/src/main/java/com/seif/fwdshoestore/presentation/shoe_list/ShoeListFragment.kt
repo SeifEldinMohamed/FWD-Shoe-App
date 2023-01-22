@@ -11,6 +11,7 @@ import com.seif.fwdshoestore.R
 import com.seif.fwdshoestore.databinding.FragmentShoeListBinding
 import com.seif.fwdshoestore.domain.model.Shoe
 import com.seif.fwdshoestore.presentation.add_shoe.AddShoeViewModel
+import com.seif.fwdshoestore.utils.hide
 import timber.log.Timber
 
 class ShoeListFragment : Fragment() {
@@ -33,11 +34,18 @@ class ShoeListFragment : Fragment() {
         binding.fabAddShoe.setOnClickListener {
             findNavController().navigate(R.id.action_shoeListFragment_to_addShoeFragment)
         }
+        observeShoe()
+        binding.rvShoeList.adapter = shoeAdapter
+    }
+
+    private fun observeShoe() {
         addShoeViewModel.shoe.observe(viewLifecycleOwner) { shoe ->
             Timber.d("onViewCreated: $shoe")
-            shoeList.add(shoe)
-            shoeAdapter.addShoeList(shoeList)
+            shoe?.let {
+                shoeList.add(it)
+                shoeAdapter.addShoeList(shoeList)
+            }
+            binding.tvNoProducts.hide()
         }
-        binding.rvShoeList.adapter = shoeAdapter
     }
 }
