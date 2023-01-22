@@ -5,12 +5,39 @@
     <string name="password">password</string>
     <string name="email">email</string>
     <string name="register">Register</string>
+
     <!-- ViewPager Fragment -->
     <string name="next">next</string>
     <string name="previous">previous</string>
     <string name="finish">Finish</string>
+
     <!-- OnBoarding1 Fragment -->
     <string name="welcome_to_the_shoe_shop_app">Welcome to The Shoe Shop App</string>
+
     <!-- OnBoarding2 Fragment -->
     <string name="instructions">You can buy the latest shoes and sell your shoes from our app</string>
+
+    <!-- ShoeList Fragment-->
+    <string name="add_shoe_fab">add shoe fab</string>
+    <string name="shoe_image_description">shoe image</string>
+
+    <!-- Shoe Adapter -->
+    <string name="egypt_currency">%1$s EGP</string>
+
+    <!-- AddShoe Fragment -->
+    <string name="add_shoe">Add Shoe</string>
+    <string name="name">name</string>
+    <string name="company">company</string>
+    <string name="price">price</string>
+    <string name="size">size</string>
+    <string name="back_icon">back icon</string>
+    <string name="add">Add</string>
+
+    <!-- Item Shoe Layout -->
+    <string name="shoe_name">air</string>
+    <string name="shoe_price">300 EGP</string>
+    <string name="shoe_size">22</string>
+    <string name="company_name">Nike</string>
+
+
 </resources>

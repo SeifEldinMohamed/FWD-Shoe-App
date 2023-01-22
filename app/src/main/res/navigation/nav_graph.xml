@@ -18,7 +18,11 @@
         android:id="@+id/shoeListFragment"
         android:name="com.seif.fwdshoestore.presentation.shoe_list.ShoeListFragment"
         android:label="fragment_shoe_list"
-        tools:layout="@layout/fragment_shoe_list" />
+        tools:layout="@layout/fragment_shoe_list" >
+        <action
+            android:id="@+id/action_shoeListFragment_to_addShoeFragment"
+            app:destination="@id/addShoeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/viewPagerFragment"
         android:name="com.seif.fwdshoestore.presentation.view_pager.ViewPagerFragment"
@@ -28,4 +32,9 @@
             android:id="@+id/action_viewPagerFragment_to_shoeListFragment"
             app:destination="@id/shoeListFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/addShoeFragment"
+        android:name="com.seif.fwdshoestore.presentation.add_shoe.AddShoeFragment"
+        android:label="fragment_add_shoe"
+        tools:layout="@layout/fragment_add_shoe" />
 </navigation>
