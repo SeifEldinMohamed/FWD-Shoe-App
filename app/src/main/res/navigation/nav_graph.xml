@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_loginFragment_to_viewPagerFragment"
             app:destination="@id/viewPagerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_shoeListFragment"
+            app:destination="@id/shoeListFragment" />
     </fragment>
     <fragment
         android:id="@+id/shoeListFragment"
@@ -30,7 +33,9 @@
         tools:layout="@layout/fragment_view_pager" >
         <action
             android:id="@+id/action_viewPagerFragment_to_shoeListFragment"
-            app:destination="@id/shoeListFragment" />
+            app:destination="@id/shoeListFragment"
+            app:popUpTo="@id/shoeListFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/addShoeFragment"
