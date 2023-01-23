@@ -6,7 +6,6 @@ import android.view.*
 import android.widget.Toast
 import androidx.core.util.PatternsCompat
 import com.google.android.material.snackbar.Snackbar
-import com.seif.booksislandapp.utils.Resource
 import java.util.regex.Pattern
 
 fun Context.showToast(message: String) {
