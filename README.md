@@ -75,3 +75,11 @@ This project will consist of five screens. You don't have to create a shoe store
     
     
 ## ScreenShots
+<p align="center">
+ <img src="img/login.jpeg" height="400" width="200">
+  <img src="img/welcome.jpeg" height="400" width="200">
+  <img src="img/instructions.jpeg" height="400" width="200">
+  <img src="img/shoe_list.jpeg" height="400" width="200">
+  <img src="img/shoe_list_empty.jpeg" height="400" width="200">
+  <img src="img/add_shoe.jpeg" height="400" width="200">
+</p>
