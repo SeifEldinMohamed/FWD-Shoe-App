@@ -21,6 +21,7 @@ class AddShoeFragment : Fragment() {
     ): View {
         // Inflate the layout for this fragment
         binding = FragmentAddShoeBinding.inflate(inflater, container, false)
+        binding.lifecycleOwner = this
         return binding.root
     }
 
