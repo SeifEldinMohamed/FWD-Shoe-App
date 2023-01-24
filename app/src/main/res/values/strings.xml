@@ -41,6 +41,7 @@
     <string name="shoe_price">300 EGP</string>
     <string name="shoe_size">22</string>
     <string name="company_name">Nike</string>
+    <string name="logout">logout</string>
 
 
 </resources>

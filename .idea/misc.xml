@@ -10,10 +10,11 @@
         <entry key="..\:/Users/96654/FWDShoeStore/app/src/main/res/layout/fragment_login.xml" value="0.264" />
         <entry key="..\:/Users/96654/FWDShoeStore/app/src/main/res/layout/fragment_onboarding1.xml" value="0.2" />
         <entry key="..\:/Users/96654/FWDShoeStore/app/src/main/res/layout/fragment_onboarding2.xml" value="0.176" />
-        <entry key="..\:/Users/96654/FWDShoeStore/app/src/main/res/layout/fragment_shoe_list.xml" value="0.2" />
+        <entry key="..\:/Users/96654/FWDShoeStore/app/src/main/res/layout/fragment_shoe_list.xml" value="0.264" />
         <entry key="..\:/Users/96654/FWDShoeStore/app/src/main/res/layout/fragment_view_pager.xml" value="0.2" />
         <entry key="..\:/Users/96654/FWDShoeStore/app/src/main/res/layout/item_product_row.xml" value="0.4" />
         <entry key="..\:/Users/96654/FWDShoeStore/app/src/main/res/layout/item_shoe.xml" value="0.264" />
+        <entry key="..\:/Users/96654/FWDShoeStore/app/src/main/res/menu/menu_shoe_list.xml" value="0.20052083333333334" />
       </map>
     </option>
   </component>
