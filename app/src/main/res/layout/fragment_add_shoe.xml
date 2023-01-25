@@ -6,7 +6,7 @@
     <data>
         <variable
             name="shoe"
-            type="com.seif.fwdshoestore.domain.model.Shoe" />
+            type="com.seif.fwdshoestore.domain.model.Shoe"/>
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -46,6 +46,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/et_price"
                 android:layout_width="match_parent"
+                android:text="@{shoe.price}"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 tools:ignore="TextContrastCheck">
@@ -69,6 +70,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/et_company"
+                android:text="@{shoe.company}"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
@@ -128,6 +130,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/et_name"
+                android:text="@{shoe.name}"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
@@ -148,5 +151,6 @@
             app:layout_constraintBottom_toBottomOf="@+id/iv_back"
             app:layout_constraintStart_toEndOf="@+id/iv_back"
             app:layout_constraintTop_toTopOf="@+id/iv_back" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

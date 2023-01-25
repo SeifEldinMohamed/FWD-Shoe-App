@@ -44,6 +44,7 @@ class AddShoeFragment : Fragment() {
             size = binding.etSize.text.toString().toDouble(),
             price = binding.etPrice.text.toString()
         )
+        binding.shoe = shoe
     }
 
 }
